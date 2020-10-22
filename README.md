@@ -1,12 +1,9 @@
 # Heroku-Twentyseven-Typescript
 
-* Tester for the Heroku app
-* All features work on Heroku
+* App Deployed here:
 
 ### UPDATE:
 
-* ignoring keyframe warning in component Loading
+* warning `Keyframe rule ignored due to bad selector`
 
 ### TODO:
-
-* deploy to Heroku

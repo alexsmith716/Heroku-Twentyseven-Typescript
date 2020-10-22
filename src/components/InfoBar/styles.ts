@@ -1,20 +1,20 @@
 import styled from 'styled-components';
-import { colors } from '../../styled/Colors';
+import { AppColors } from '../../styled';
 
 export const InfoBarContainerBgColor = styled.div`
-	background-color: ${colors.lightskyblue};
+  background-color: ${AppColors.colors.lightskyblue};
 `;
 
 export const InfoBarContainer = styled.div`
-	padding: 16px;
-	text-align: center;
+  padding: 16px;
+  text-align: center;
 `;
 
 export const InfoBarContainerStyled = styled.div`
-	font-family: 'Arial', sans-serif;
+  font-family: 'PhilosopherBold', sans-serif;
 `;
 
 export const DataMessage = styled.span`
-	color: ${colors.firebrick};
-	font-family: 'Arial', sans-serif;
+  color: ${AppColors.colors.firebrick};
+  font-family: 'RobotoMonoV4LatinRegular', sans-serif;
 `;
